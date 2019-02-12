@@ -1,14 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ps1;
 
-/**
- *
- * @author Salad
- */
-public class MainView {
+import java.awt.*;
+import javax.swing.*;
+
+public class MainView extends JFrame{
     
+    
+    
+        MainView(){
+            setTitle("Playstation 1 Buddy");
+            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            setSize(400,500); 
+            setResizable(false);
+            
+            MainPanel mP = new MainPanel();
+            add(mP);
+                    
+        }
 }

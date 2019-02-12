@@ -10,8 +10,8 @@ public class PS1 {
     public static void main(String[] args) 
     {
         
-                MainView mFrame = new MainView();
-                MainController mCont = new MainController(mFrame);
+                MainView mView = new MainView();
+                MainController mCont = new MainController(mView);
 
     }
  
