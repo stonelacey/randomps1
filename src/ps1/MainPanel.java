@@ -22,5 +22,13 @@ public class MainPanel extends JPanel{
        
     }
     
+    public JButton GetButton()
+    {
+        return this.bP.GetButton();
+    }
     
+    public void SetGame(String game)
+    {
+        tP.SetLabel(game);
+    }
 }
